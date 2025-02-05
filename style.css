@@ -27,12 +27,12 @@ header {
   padding: 10px 15px;
 }
 
-.navbar .logo h2 {
+.navbar .logo h1 {
 
   font-family: "Tektur", serif;
 
   color:var(--prime-color);
-  font-size: 1.8rem;
+  font-size: 1.7rem;
     
     font-weight: bold;
 }
@@ -247,6 +247,7 @@ color: #df2222;
 
 
 /* button*/
+
 
 .btn  {
   background: linear-gradient(135deg, #ff416c, #ff4b2b);
@@ -549,11 +550,15 @@ font-weight: bold;
     display: inline-block;
     margin-top: 10px;
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
+    text-shadow:  1px 2px rgba(0, 0, 0, 0.6);;
+    text-decoration: none;
+
 }
 .card a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #6aff00;
 }
 
 /* Contact info  */
